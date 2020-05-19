@@ -13,20 +13,20 @@ site de exercicios:
  
 A linguagem utilizada é a Python 3
 
-Para Instalar:
-'''Console
+Para instalar:
+
+```console
 python3 -m venv .venv
-
-source .venv\Scripts\activate
-
+source .venv/bin/activate
 pip install -r requirements-dev.txt
-'''
+```
 
 Para conferir qualidade de código:
-'''console
 
+```console
 flake8
-'''
+
+```
 
  
   
