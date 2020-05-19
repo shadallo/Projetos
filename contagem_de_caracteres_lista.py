@@ -32,7 +32,7 @@ def contar_caracteres(s):
     print(f'{caracterer_anterior}: {contagem}')
 
 if __name__ == '__main__':
+    
     contar_caracteres('renzo')
     print()
     contar_caracteres('banana')
-
