@@ -23,7 +23,7 @@ def contar_caracteres(s):
 
     for caracter in caracteres_ordenados[1:]:
         if caracter == caracterer_anterior:
-            contagem +=1
+            contagem += 1
         else:
             print(f'{caracterer_anterior}: {contagem}')
             caracterer_anterior = caracter
@@ -31,8 +31,8 @@ def contar_caracteres(s):
 
     print(f'{caracterer_anterior}: {contagem}')
 
+
 if __name__ == '__main__':
-    
     contar_caracteres('renzo')
     print()
     contar_caracteres('banana')

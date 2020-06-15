@@ -14,9 +14,10 @@ def contar_caracteres(s):
 
     for caracter in s:
         resultado[caracter] = resultado.get(caracter, 0) + 1
-        #contagem +=1
-        #resultado[caracter] = contagem
+        # contagem +=1
+        # resultado[caracter] = contagem
     return resultado
+
 
 if __name__ == '__main__':
     print(contar_caracteres('renzo'))
@@ -25,19 +26,19 @@ if __name__ == '__main__':
 
 # Outra Forma de Fazer a contagem de caracter
 
-  #  for caracter in caracteres_ordenados[1:]:
-  #      if caracter == caracterer_anterior:
-  #          contagem +=1
-  #      else:
-  #          resultado [caracterer_anterior] = caracter
-  #          caracterer_anterior = caracter
-  #          contagem = 1
+#  for caracter in caracteres_ordenados[1:]:
+#      if caracter == caracterer_anterior:
+#          contagem +=1
+#      else:
+#          resultado [caracterer_anterior] = caracter
+#          caracterer_anterior = caracter
+#          contagem = 1
 
-  #   resultado[caracterer_anterior] = contagem
+#   resultado[caracterer_anterior] = contagem
 
-  #   return resultado
+#   return resultado
 
-#if __name__ == '__main__':
+# if __name__ == '__main__':
 #    print(contar_caracteres('renzo'))
 #    print()
 #    print(contar_caracteres('banana'))
