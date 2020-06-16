@@ -8,7 +8,6 @@ primeiro_num = int(input('Digite 1º Número Inteiro:'))
 segundo_num = int(input('Digite 2º Número Inteiro:'))
 terceiro_num = float(input('Digite um Número Real:'))
 
-print('Produto:', ((primeiro_num*2)*(segundo_num/2)))
-print('Soma:', (primeiro_num*3)+terceiro_num)
-print('Cubo:', (terceiro_num**3))
-
+print('Produto:', ((primeiro_num * 2) * (segundo_num / 2)))
+print('Soma:', (primeiro_num * 3) + terceiro_num)
+print('Cubo:', (terceiro_num ** 3))
