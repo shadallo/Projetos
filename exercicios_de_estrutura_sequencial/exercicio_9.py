@@ -4,6 +4,6 @@ C = (5 * (F-32) / 9).
 """
 
 temperatura = float(input('Digite a Temperatura:'))
-temp_celsius = (5 * (temperatura - 32) / 9)
+temp_celsius = ((temperatura - 32) * 5 / 9)
 
 print('A Temperatura em Celsius é:', temp_celsius, 'ºC')
